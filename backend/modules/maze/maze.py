@@ -1,9 +1,7 @@
 from typing import List
 from .maze_base import MazeType
 from .maze_bar import MazeBar
-import sys
-sys.path.append('../')
-from backend import schemas
+from schemas import schemas
 
 
 
