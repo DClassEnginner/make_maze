@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-2 pl-2 pr-2 w-2/3 sm:w-2/4 mx-auto">
+  <div class="pt-2 pl-6 pr-6 sm:px-2 w-full sm:w-3/4 md:w-2/4 mx-auto">
     <form
       class="bg-white shadow-md rounded-t px-8 pt-6 pb-8 border-b-2 border-gray-200"
     >
@@ -57,7 +57,7 @@ export default defineComponent({
         // { id: 2, text: "壁伸ばし法", value: "extend" },
         // { id: 3, text: "穴掘り法", value: "dig" },
       ],
-      sizeList: [5, 10, 15, 20, 25],
+      sizeList: [5, 10, 15, 20, 25, 30, 35, 40, 45, 50],
       size: 5,
     };
   },
