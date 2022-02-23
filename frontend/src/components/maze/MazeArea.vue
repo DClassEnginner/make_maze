@@ -22,7 +22,7 @@ export default defineComponent({
     }
   },
   methods: {
-    classObject(m) {
+    classObject(m: number) {
       return {
         'bg-black': m == 1,
         'bg-white': m == 0
