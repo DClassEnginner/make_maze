@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
-from schemas import schemas
-from modules.maze.maze import MazeType, make_maze
+from app.schemas import schemas
+from app.modules.maze.maze import MazeType, make_maze
 
 router = APIRouter()
 

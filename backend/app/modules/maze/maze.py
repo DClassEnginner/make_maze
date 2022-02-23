@@ -1,7 +1,7 @@
 from typing import List
 from .maze_base import MazeType
 from .maze_bar import MazeBar
-from schemas import schemas
+from app.schemas import schemas
 
 
 

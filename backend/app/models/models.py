@@ -1,7 +1,7 @@
 from re import I
 from sqlalchemy import Column, Integer, String
 
-from db.database import Base
+from app.db.database import Base
 
 class User(Base):
     __tablename__ = 'score'
