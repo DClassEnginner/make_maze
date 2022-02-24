@@ -10,17 +10,5 @@ def make_maze(width: int = 10, height: int = 10, type: MazeType = MazeType.bar) 
     maze = schemas.Maze
     if type == MazeType.bar:
         m = MazeBar(width, height)
-    elif type == MazeType.extend:
-        m = make_maze_extend(width, height)
-    else:
-        m = make_maze_dig(width, height)
-    
-    maze.maze = m.create()
+        maze.maze = m.create()
     return maze
-
-
-def make_maze_extend(width: int = 10, height: int = 10) -> List[int]:
-    pass
-
-def make_maze_dig(width: int = 10, height: int = 10) -> List[int]:
-    pass
